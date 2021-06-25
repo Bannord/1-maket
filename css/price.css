@@ -26,10 +26,16 @@
     justify-content: space-around;
 }
 
+.price_card ul {
+    max-width: 350px;
+    width: 100%;
+
+}
+
 
 .price_name_title {
     background: #333333;
-    width: 350px;
+    
     text-align: center;
     color: white;
     font-size: 20px;
@@ -41,7 +47,7 @@
 
 .pricing {
     background: #333333;
-    width: 350px;
+    
     text-align: center;
     color: white;
     
@@ -53,7 +59,7 @@
 
 .pricing_life_text {
     background: #333333;
-    width: 350px;
+    
     text-align: center;
     color: FFFFF;
     font-size: 14px;
