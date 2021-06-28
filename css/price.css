@@ -5,14 +5,19 @@
 }
 
 .pricing_title {
-    font-family: Raleway;
+    font-size: 36px;
+    margin: auto;
+    max-width: 409px;
     text-transform: uppercase;
     text-align: center;
+   
     margin-bottom: 34px;
+
     
 }
 .sub_title_pricing {
     font-size: 14px;
+    line-height: 19px;
     text-align: center;
     max-width: 364px;
     margin: auto;
@@ -67,6 +72,23 @@
     font-weight: 700;
     line-height: 52px;
     margin-bottom: 4px;
+}
+
+.pricing_life_text_optima {
+    background: #333333;
+    
+    text-align: center;
+    color: FFFFF;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 4px;
+    transition: 0.5s;
+}
+
+.pricing_life_text_optima:hover {
+    background: orange;
 }
 
 .pricing_text {
