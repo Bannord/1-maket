@@ -103,3 +103,7 @@
 .pricing_text + .pricing_text {
     margin-bottom: 4px;
 }
+
+.pricing_text:last-child {
+    margin: 0;
+}
