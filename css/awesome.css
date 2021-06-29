@@ -10,6 +10,17 @@
     margin-bottom: 25px;
   }
 
+  .title-awesome::after {
+    content: '';
+    width: 64px;
+    height: 2px;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    border-bottom: 1px solid orange;
+    display: block;
+  }
+
   .line {
     border-top: 1px solid orange;
     width: 64px;

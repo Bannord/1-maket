@@ -1,0 +1,57 @@
+.axure{ 
+    
+    position: relative;
+    background-image: url('../img/city_axure.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.axure_clone {
+    
+    padding-top: 58px;
+    padding-bottom: 38px;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.axure_title {
+  
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF; 
+    font-family: 'Raleway';
+}
+
+.axure_title::after {
+    content: '';
+    width: 64px;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 34px;
+    margin-top: 34px;
+    display: block;
+    border-bottom: 1px solid #FFFFFF;;
+}
+
+.axure_subtitle {
+    max-width: 779px;
+    margin: auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 57px;
+}
+
+.axure_btn {
+    display: block;
+    margin: auto;
+    width: 135px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background: transparent;
+    padding: 11px 26px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+}
