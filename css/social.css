@@ -1,0 +1,46 @@
+.social {
+    padding-top: 14px;
+    padding-bottom: 17px;
+    background: #F8EFEF;
+}
+
+.social_title {
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.social_row {
+    display: flex;
+    justify-content: space-between;
+}
+.social_items {
+    max-width: 365px;
+    font-size: 14px;
+    line-height: 19px;
+    
+    align-items: center;
+
+    color: #86878B;
+}
+
+.social_icons {
+    padding-top: 20px;
+    font-size: 45px;
+    
+}
+
+
+i[class^="fab"]:not(:last-child){
+    margin-right: 48px;
+    transition: 0.4s;
+}
+
+i[class^="fab"]:hover
+{   color: red;
+    transform: scale(1.3);
+}

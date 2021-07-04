@@ -76,15 +76,17 @@
 }
 .row_customers_item_img {
     padding-left: 7px;
-}
-
-.row_customers_item_img img{
     width: 70px;
     height: 70px;
+    overflow: hidden;
     border-radius: 50%;
-    
-    
 }
+
+.row_customers_item_img img {
+    width: 100%;
+    height: 100%;
+}
+
 
 .row_customers_item_about_name {
     display: flex;
