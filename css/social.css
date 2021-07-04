@@ -17,6 +17,7 @@
 .social_row {
     display: flex;
     justify-content: space-between;
+    margin: 0px -15px
 }
 .social_items {
     max-width: 365px;
