@@ -30,18 +30,51 @@
 }
 
 .social_icons {
+    width: 684px;
     padding-top: 20px;
-    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
     
 }
 
-
-i[class^="fab"]:not(:last-child){
-    margin-right: 48px;
-    transition: 0.4s;
+i {
+    font-size: 40px;
+    transition: 0.5s;
 }
 
-i[class^="fab"]:hover
-{   color: red;
+.fa-facebook-f:hover {
+    color: green;
     transform: scale(1.3);
 }
+
+.fa-twitter:hover {
+    color: red;
+    transform: scale(0.8);
+}
+
+.fa-google:hover {
+    color: salmon;
+    transform: rotate(360deg);
+}
+
+.fa-python:hover {
+    color: springgreen;
+    transform: rotate(180deg);
+}
+
+.fa-instagram:hover {
+    color: blue;
+    transform: scaleX(2);
+}
+
+.fa-supple:hover {
+    color: coral;
+    transform: scale(1.5);
+}
+
+.fa-wifi:hover{
+    color: green;
+    transform: rotate(180deg);
+}
+
+

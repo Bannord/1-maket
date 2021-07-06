@@ -1,0 +1,32 @@
+.contact {
+    padding-top: 80px;
+    padding-bottom: 44px;
+}
+
+.contact_title {
+    font-size: 36px;
+line-height: 42px;
+text-align: center;
+text-transform: uppercase;
+color: #212121;
+}
+
+.contact_title::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid orange;
+    width: 67px;
+    height: 2px;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.contact_subtitle {
+    max-width: 363px;
+    font-size: 14px;
+line-height: 19px;
+color: #86878B;
+margin: auto;
+margin-bottom: 91px;
+}

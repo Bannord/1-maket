@@ -4,10 +4,16 @@
     padding-bottom: 15px;
 }
 
-.social_icons {
-    text-align: center;
-    font-size: 25px;
+.footer_icons {
+    margin: auto;
     margin-bottom: 18px;
+    max-width: 317px;
+    display: flex;
+    justify-content: space-between;
+}
+
+z {
+    font-size: 18px;
 }
 
 .footer_items {
@@ -19,12 +25,3 @@ text-align: center;
 color: rgba(255, 255, 255, 0.5);
 }
 
-z[class^="fab"]:not(:last-child){
-    margin-right: 10px;
-    transition: 0.4s;
-}
-
-z[class^="fab"]:hover
-{   color: green;
-    transform: scale(1.3);
-}
