@@ -44,29 +44,25 @@
                 
                 <h2 class="form_title">Try Your <span>FREE</span> Trial Today</h2>
                 <div class="form_content">
-                  <div class="form_group">
-                      
-                      <input type="text" class="form_input" placeholder=" ">
-                      <label for="#" class="form_label">Name</label>
-                      
-                      
-                  </div>
+                    <div class="form_group">
+                        <label for="#" class="form_label">Name</label>
+                        <input type="text" class="form_input">
+                        
+                    </div>
 
-                  <div class="form_group">
-                        <input type="email" class="form_input" placeholder=" ">
-                      <label for="#" class="form_label">Email</label>
-                      
+                    <div class="form_group">
+                        <label for="#" class="form_label">Email</label>
+                        <input type="email" class="form_input">
 
-                  </div>
+                    </div>
 
-                  <div class="form_group">
-                    <input type="password" class="form_input" placeholder=" ">
-                      <label for="#" class="form_label ">Password</label>
-                      
-                      
+                    <div class="form_group">
+                        <label for="#" class="form_label ">Password</label>
+                        <input type="password" class="form_input">
+                        
+                    </div>
+                 
                   </div>
-               
-                </div>
             <button type="submit" class="form_button">Get Started</button>
             </form>
         </div>
@@ -249,40 +245,29 @@
         
     </section>
 
-    <section class="contact">
+    <section class="contacts">
         <div class="container">
-            <h2 class="contact_title">contact us</h2>
-            <p class="contact_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="contact_row">
-                <form action="#" class="contact_form">
-                
-                    <div class="form_contact">
-                      <div class="contact_form_group">
-                          <input type="text" class="contact_form_input" placeholder=" ">
-                          <label for="#" class="contact_form_label">Name</label>
-                          
-                          
-                        </div>
-    
-                        <div class="contact_form_group">
-                            <input type="email" class="contact_form_input" placeholder=" ">
-                          <label for="#" class="contact_form_label">Email</label>
-                          
-    
-                        </div>
-    
-                        <div class="contact_form_group">
-                            <input type="password" class="contact_form_input" placeholder=" ">
-                            <label for="#" class="contact_form_label ">Password</label>
-                          
-                          
-                        </div>
-                   
-                    </div>
-                
-                </form>
-                <textarea name="" class="contact_textarea"  ></textarea>
+            <div class="contacts-title">contact us</div>
+            <div class="contacts-descr">
+                <p class="contacts-descr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
+            <form action="#" name="contacts-form" class="contacts-form">
+                <div class="contacts-form-container">
+                    <div class="contacts-form-login">
+                        <label for="name" class="contacts-label">Name</label>
+                        <input type="text" id="name" class="contacts-input__name">
+                        <label for="email" class="contacts-label">Email</label>
+                        <input type="email" id="email" class="contacts-input__email">
+                        <label for="password" class="contacts-label">Password</label>
+                        <input type="password" id="password" class="contacts-input__password">
+                    </div>
+                    <div class="contacts-form-message">
+                        <label class="contacts-label" for="message">Message</label>
+                        <textarea class="contacts-message" name="message"></textarea>
+                    </div>
+                </div>
+                <button type="submit" form="contacts-form" class="contacts-btn-submit">Send Message</button>
+            </form>
         </div>
     </section>
 
