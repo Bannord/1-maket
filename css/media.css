@@ -1,0 +1,156 @@
+@media (max-width: 1170px) {
+
+    .feautures_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tab_3 {
+        margin-bottom: 15px;
+    }
+
+    .btn_item {
+        text-align: center;
+    }
+
+    .btn_link {
+        display: block;
+        width: 135px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    
+    .items_content {
+        flex-direction: column;
+    align-items: center;
+    }
+
+    .card_content_awesome {
+        margin-bottom: 20px;
+    }
+    
+    .price_card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price_card ul {
+        margin-bottom: 10px;
+    }
+
+    .contacts-form-container {
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts-form-login {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 951px) {
+
+   
+    .row_customers {
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .row_customers_item {
+        margin-bottom: 20px;
+    }
+    
+
+}
+
+@media (max-width: 750px) {
+    .price_card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price_card ul {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 720px) {
+
+.main_row {
+    flex-direction: column;
+
+}
+.main_logo {
+    margin: auto;
+    font-size: 40px;
+}
+.main_title {
+    text-align: center;
+    font-size: 28px;
+}
+
+.main_title::after {
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.sub_title {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 39px;
+}
+
+.main_btn {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+}
+
+@media (max-width: 620px) {
+
+    .header-logo {
+        display: flex;
+        align-items: center;
+    }
+    .list_items {
+        flex-direction: column;
+    }
+
+    .social_row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social_items {
+        text-align: center;
+        
+    }
+
+    .social_title {
+        text-align: center;
+        width: 130px;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+
+
+    .social_icons  { margin: auto;
+        margin-bottom: 18px;
+        max-width: 317px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .social_icons i {
+        
+        font-size: 18px;
+        
+    }
+}
+
+
+
