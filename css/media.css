@@ -11,8 +11,8 @@
     }
 
     .tabs_btn {
-        flex-direction: row;
-        justify-content: space-around;
+        
+        
         align-items: center;
         margin-bottom: 15px;
     }
