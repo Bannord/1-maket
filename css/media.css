@@ -134,6 +134,12 @@
 
 @media (max-width: 620px) {
 
+
+    .tabs_btn {
+        
+    }
+
+
     .header-logo {
         display: flex;
         align-items: center;
