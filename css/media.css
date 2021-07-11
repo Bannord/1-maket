@@ -6,37 +6,23 @@
     }
 
     .tabs_wrap {
-        display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .tabs_btn {
-        
-        
-        align-items: center;
         margin-bottom: 15px;
-    }
-
-
-
-    .tab_3 {
-        margin-bottom: 15px;
-    }
-
-    .tabs_content {
-        margin: auto;
     }
 
     .btn_item {
         text-align: center;
-        
     }
 
     .btn_link {
         display: block;
-        width: 135px;
         margin: auto;
-        margin-bottom: 30px;
+        width: 135px;
+        margin-bottom: 20px;
     }
     
     .items_content {
@@ -128,6 +114,21 @@
 }
 
 
+
+.feautures_title {
+    text-align: center;
+    max-width: 408px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+.btn_item {
+    max-width: 400px;
+    margin-bottom: 50px;
+    
+}
+
 }
 
 @media (max-width: 620px) {
@@ -169,6 +170,8 @@
         font-size: 18px;
         
     }
+
+    
 }
 
 
