@@ -11,7 +11,7 @@
 .tabs_wrap {
     display: flex;
     justify-content: space-between;
-    width: 800px;
+    max-width: 800px;
 }
 
 
