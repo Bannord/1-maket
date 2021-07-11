@@ -8,10 +8,16 @@
     justify-content: space-between;
 }
 
-
-.btn_feautures {
+.tabs_wrap {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+}
+
+
+.tabs_btn {
+   display: flex;
+   flex-direction: column;
 }
 
 .btn {
@@ -34,6 +40,10 @@
 
 .btn:hover {
     background: #EC7979;
+}
+
+.tabs_content {
+    max-width: 572px;
 }
 
 .feautures_title {
