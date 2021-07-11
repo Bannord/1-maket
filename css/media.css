@@ -17,16 +17,19 @@
         margin-bottom: 15px;
     }
 
-    .tabs_content {
-        margin: auto;
-    }
+
 
     .tab_3 {
         margin-bottom: 15px;
     }
 
+    .tabs_content {
+        margin: auto;
+    }
+
     .btn_item {
         text-align: center;
+        
     }
 
     .btn_link {
