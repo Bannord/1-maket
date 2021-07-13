@@ -1,11 +1,12 @@
 .feautures {
     padding-top: 126px;
-    padding-bottom: 205px;
+    padding-bottom: 150px;
 }
 
 .feautures_wrapper {
     display: flex;
     justify-content: space-between;
+    margin: 0, -15px;
 }
 
 .tabs_wrap {
@@ -16,8 +17,11 @@
 
 
 .tabs_btn {
-   display: flex;
-   flex-direction: column;
+   
+ 
+   
+   
+  
 }
 
 .btn {

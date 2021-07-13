@@ -42,6 +42,7 @@
 .row_customers_item {
     
     max-width: 298px;
+    
 }
 
 
@@ -50,6 +51,7 @@
     background: #E2E2E2;
     border-radius: 7px;
     margin-bottom: 22px;
+    
 }
 
 .row_customers_item_text::after {
@@ -75,7 +77,7 @@
     justify-content: space-around;
 }
 .row_customers_item_img {
-    padding-left: 7px;
+    
     width: 70px;
     height: 70px;
     overflow: hidden;
@@ -83,7 +85,7 @@
 }
 
 .row_customers_item_img img {
-    width: 100%;
+    
     height: 100%;
 }
 

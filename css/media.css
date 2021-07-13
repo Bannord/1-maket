@@ -1,5 +1,6 @@
 @media (max-width: 1170px) {
     
+    
 
     .feautures_wrapper {
         flex-direction: column;
@@ -12,7 +13,9 @@
     }
 
     .tabs_btn {
-        margin-bottom: 15px;
+        
+        margin-right: 0px;
+        
     }
 
     .btn_item {
@@ -58,11 +61,7 @@
 @media (max-width: 951px) {
 
    
-    .row_customers {
-        align-items: center;
-        flex-direction: column;
-        
-    }
+ 
 
     .row_customers_item {
         margin-bottom: 20px;
@@ -73,12 +72,19 @@
 
 @media (max-width: 750px) {
     .price_card {
-        flex-direction: column;
+        
         align-items: center;
     }
 
     .price_card ul {
         margin-bottom: 10px;
+    }
+
+    .row_customers {
+        flex-direction: column;
+        align-items: center;
+        
+        
     }
 }
 
@@ -111,7 +117,7 @@
 
 .main_btn {
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 128px;
 }
 
 
@@ -139,6 +145,7 @@
         
     }
 
+ 
 
     .header-logo {
         display: flex;
