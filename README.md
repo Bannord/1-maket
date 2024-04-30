@@ -2,7 +2,7 @@
 
 
 
-https://bannord.github.io/fe-14-onl-1-mostyko-egor/
+https://bannord.github.io/1-maket/
 
 :)
 
